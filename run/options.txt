@@ -1,4 +1,4 @@
-version:3578
+version:3465
 autoJump:false
 operatorItemsTab:false
 autoSuggestions:true
@@ -15,14 +15,14 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.5
-fov:0.0
+fov:0.5
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
@@ -30,7 +30,6 @@ glintSpeed:0.5
 glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
-narratorHotkey:true
 gamma:0.5
 renderDistance:12
 simulationDistance:12
@@ -119,10 +118,10 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-soundCategory_master:0.2533112582781457
-soundCategory_music:0.5
+soundCategory_master:0.25662251655629137
+soundCategory_music:0.5070422535211268
 soundCategory_record:1.0
-soundCategory_weather:0.5035211267605634
+soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0

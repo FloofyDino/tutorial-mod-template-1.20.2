@@ -1,40 +1,36 @@
 {
 	"schemaVersion": 1,
-	"id": "tutorial-mod",
+	"id": "tutorialmod",
 	"version": "${version}",
-	"name": "tutorial Mod",
-	"description": "This is a tutorial mod by twig",
+	"name": "Tutorial Mod",
+	"description": "This is a Tutorial Mod made by Kaupenjoe :)",
 	"authors": [
-		"Me!"
+		"Kaupenjoe!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/tutorial-mod/icon.png",
+	"icon": "assets/tutorialmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.twig.tutorialmod.TutorialMod"
+			"net.kaupenjoe.tutorialmod.TutorialMod"
 		],
 		"client": [
-			"net.twig.tutorialmod.TutorialModClient"
+			"net.kaupenjoe.tutorialmod.TutorialModClient"
 		],
 		"fabric-datagen": [
-			"net.twig.tutorialmod.TutorialModDataGenerator"
+			"net.kaupenjoe.tutorialmod.TutorialModDataGenerator"
 		]
 	},
 	"mixins": [
-		"tutorial-mod.mixins.json",
-		{
-			"config": "tutorial-mod.client.mixins.json",
-			"environment": "client"
-		}
+		"tutorialmod.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.0",
-		"minecraft": "~1.20.2",
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
